@@ -1,6 +1,5 @@
 import Link from "next/link"
 import { ArrowUp } from "lucide-react"
-import { FaWhatsapp } from "react-icons/fa"
 
 const Footer = () => {
   return (
@@ -18,37 +17,34 @@ const Footer = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           <div>
-            <h2 className="text-xl mb-6">Address</h2>
+            <h2 className="text-xl mb-6">Contact</h2>
             <div className="space-y-4 text-gray-400">
-              {/* <p>
-                71-75 Shelton Street, Covent Garden, London, United Kingdom, WC2H 9JQ
-              </p> */}
+              <div>
+                <p className="font-semibold text-white">CleverCore LLC</p>
+                <p>382 NE 191ST #971379</p>
+                <p>Miami, Florida 33179 US</p>
+              </div>
               <div>
                 <div className="flex items-center space-x-2">
                   <a
-                    href="mailto:sales@ascendai.site"
+                    href="mailto:louis@clevercore.ai"
                     className="hover:text-white transition-colors"
                   >
-                    sales@ascendai.site
-                  </a>
-                </div>
-                <div className="flex items-center space-x-2">
-                  <a
-                    href="mailto:contact@ascendai.site"
-                    className="hover:text-white transition-colors"
-                  >
-                    contact@ascendai.site
+                    louis@clevercore.ai
                   </a>
                 </div>
               </div>
-              <div className="mt-4 space-y-1 flex items-center space-x-2">
-                <FaWhatsapp size={25} className="text-green-500" />
-                <p>+880 17 0637 3929</p>
+              <div>
+                <p>+1 (810) 429-6998</p>
               </div>
-              <div className="mt-4">
-                <p className="text-xs text-gray-500">
-                  Trade License: TRAD/DSCC/032086/2024
-                </p>
+              <div>
+                <a
+                  href="https://www.clevercore.ai"
+                  target="_blank"
+                  className="hover:text-white transition-colors"
+                >
+                  www.clevercore.ai
+                </a>
               </div>
             </div>
           </div>
@@ -96,19 +92,12 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Payment Banner */}
-        <div className="mt-8 flex justify-center">
-          <img
-            src="/Payment Banner 2 - Copy.png"
-            alt="Payment Methods"
-            className="max-w-full h-auto"
-          />
-        </div>
+
 
         {/* Copyright */}
         <div className="mt-8 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            © 2025 Clevercore AI. All rights reserved.
+            © 2026 Clevercore AI. All rights reserved.
           </p>
           <Link
             href="#top"

@@ -96,7 +96,7 @@ export default function TermsPage() {
           <div>
             <h2 className="text-2xl font-bold text-white mb-4">11. Contact Information</h2>
             <p className="text-gray-300 leading-relaxed">
-              If you have any questions about these Terms, please contact us at contact@ascendai.site or sales@ascendai.site.
+              If you have any questions about these Terms, please contact us at louis@clevercore.ai.
             </p>
           </div>
         </div>

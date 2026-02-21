@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     template: `%s - ${siteConfig.name}`,
   },
   description: siteConfig.description,
-  metadataBase: new URL("https://www.ascendai.site/"),
+  metadataBase: new URL("https://www.clevercore.ai/"),
   keywords: [
     "clevercore",
     "clevercoreai",

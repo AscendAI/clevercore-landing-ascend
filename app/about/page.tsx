@@ -70,25 +70,21 @@ export default function AboutPage() {
           <h2 className="text-3xl font-bold text-white mb-6">Company Information</h2>
           <div className="grid md:grid-cols-2 gap-8">
             <div>
-              <h3 className="text-xl font-semibold text-white mb-4">Registered Address</h3>
-              <p className="text-gray-300 mb-6">
-                ৮৩/বি সিদ্দেশ্বরী সার্কুলার রোড মোটক টাওয়ার কুমা-১৩০২ রমনা ঢাকা-১২১৭
-              </p>
-              <h3 className="text-xl font-semibold text-white mb-4">International Office</h3>
-              <p className="text-gray-300">
-                71-75 Shelton Street, Covent Garden, London, United Kingdom, WC2H 9JQ
-              </p>
+              <h3 className="text-xl font-semibold text-white mb-4">Address</h3>
+              <p className="text-gray-300 mb-2 font-semibold">CleverCore LLC</p>
+              <p className="text-gray-300">382 NE 191ST #971379</p>
+              <p className="text-gray-300">Miami, Florida 33179 US</p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-white mb-4">Trade License</h3>
-              <p className="text-gray-300 mb-6">
-                TRAD/DSCC/032086/2024
-              </p>
               <h3 className="text-xl font-semibold text-white mb-4">Contact Information</h3>
               <div className="space-y-2 text-gray-300">
-                <p>Email: sales@ascendai.site</p>
-                <p>Email: contact@ascendai.site</p>
-                <p>Phone: +880 17 0637 3929</p>
+                <p>Email: louis@clevercore.ai</p>
+                <p>Phone: +1 (810) 429-6998</p>
+                <p>
+                  <a href="https://www.clevercore.ai" target="_blank" className="hover:text-white transition-colors">
+                    www.clevercore.ai
+                  </a>
+                </p>
               </div>
             </div>
           </div>
