@@ -3,8 +3,8 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 
 export const metadata: Metadata = {
-  title: "About Us - Ascend AI",
-  description: "Learn about Ascend AI, our mission, vision, and the team behind our innovative AI solutions.",
+  title: "About Us - Clevercore AI",
+  description: "Learn about Clevercore AI, our mission, vision, and the team behind our innovative AI solutions.",
 }
 
 export default function AboutPage() {
@@ -14,7 +14,7 @@ export default function AboutPage() {
       <div className="bg-secondary/50 py-16">
         <div className="max-w-7xl mx-auto px-8">
           <h1 className="text-4xl md:text-6xl font-bold text-purple-400 mb-4">
-            About <span className="text-white">Ascend AI</span>
+            About <span className="text-white">Clevercore AI</span>
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl">
             Empowering businesses with cutting-edge AI solutions and innovative technology
@@ -29,7 +29,7 @@ export default function AboutPage() {
           <div>
             <h2 className="text-3xl font-bold text-white mb-6">Our Mission</h2>
             <p className="text-gray-300 leading-relaxed">
-              At Ascend AI, we are dedicated to transforming businesses through innovative artificial intelligence solutions. Our mission is to make advanced AI technology accessible and practical for organizations of all sizes, helping them achieve unprecedented growth and efficiency.
+              At Clevercore AI, we are dedicated to transforming businesses through innovative artificial intelligence solutions. Our mission is to make advanced AI technology accessible and practical for organizations of all sizes, helping them achieve unprecedented growth and efficiency.
             </p>
           </div>
           <div>
@@ -96,13 +96,13 @@ export default function AboutPage() {
 
         {/* Call to Action */}
         <section className="text-center">
-          <h2 className="text-3xl font-bold mb-4">Are you ready to Ascend? Let's Talk!</h2>
+          <h2 className="text-3xl font-bold mb-4">Are you ready to level up? Let's Talk!</h2>
           <p className="text-xl text-muted-foreground mb-8">
             Whether it's optimizing your business with AI or breathe life
             into your SaaS vision, we're ready to help you take the first
             step.{" "}
             <span className="font-bold">Book a free consultation call</span>{" "}
-            with <span className="font-bold">ASCEND AI</span> and let's
+            with <span className="font-bold">CLEVERCORE AI</span> and let's
             turn your goals into tangible success.
           </p>
           <Link

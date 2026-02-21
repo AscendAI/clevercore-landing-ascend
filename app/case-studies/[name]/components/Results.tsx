@@ -31,7 +31,7 @@ const Results = ({
       <div className="my-16 sm:my-32">
         <SectionTitle>Results</SectionTitle>
         <p className="pt-6 text-center text-xl sm:pt-10 sm:text-2xl">
-          Ascend team worked on client&apos;s business needs and achieved the
+          Clevercore team worked on client&apos;s business needs and achieved the
           following results
         </p>
       </div>

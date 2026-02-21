@@ -111,7 +111,7 @@ const MeetingForms = () => {
     >
       <div className="my-8 flex w-full flex-col items-center gap-2">
         <h1 className="text-3xl font-extrabold leading-tight  md:text-4xl">
-          Are You Ready to Ascend?
+          Are You Ready to Level Up?
         </h1>
       </div>
       <Form {...form}>
@@ -122,7 +122,7 @@ const MeetingForms = () => {
           <p className="text-left text-lg text-muted-foreground lg:text-center">
             Get started on your AI journey today. Reach out to us for a free
             consultation. Let&apos;s work together to transform your business
-            and ascend to new heights.
+            and reach new heights.
           </p>
           <FormField
             control={form.control}
@@ -192,7 +192,7 @@ const MeetingForms = () => {
               )}
             />
           </div>
-          <AlertForBook open={open} setOpen = {setOpen}>
+          <AlertForBook open={open} setOpen={setOpen}>
             <Button type="submit">Submit</Button>
           </AlertForBook>
         </form>

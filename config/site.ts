@@ -1,9 +1,9 @@
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
-  name: "Ascend AI",
+  name: "Clevercore AI",
   description:
-    "Ascend Beyond Boundaries with AI",
+    "Clevercore AI — Beyond Boundaries with AI",
   mainNav: [
     // {
     //   title: "Home",

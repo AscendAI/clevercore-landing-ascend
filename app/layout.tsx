@@ -15,16 +15,16 @@ import image from "/public/og-image.png"
 
 export const metadata: Metadata = {
   title: {
-    default: "Ascend AI",
+    default: "Clevercore AI",
     template: `%s - ${siteConfig.name}`,
   },
   description: siteConfig.description,
   metadataBase: new URL("https://www.ascendai.site/"),
   keywords: [
-    "ascend",
-    "ascendai",
-    "Ascend AI",
-    "Ascend",
+    "clevercore",
+    "clevercoreai",
+    "Clevercore AI",
+    "Clevercore",
     "AI",
     "Saas",
     "AI Saas",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: "/ascend-ai-logo.png",
+        url: "/cc_Logo.png",
         type: "image/png",
       },
     ],

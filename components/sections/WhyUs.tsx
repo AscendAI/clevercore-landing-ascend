@@ -7,7 +7,7 @@ const WhyUs = () => {
     <div className="">
       <div className="container">
         <div className="">
-          <SectionTitle>ASCEND WITH US</SectionTitle>
+          <SectionTitle>WHY CHOOSE US</SectionTitle>
         </div>
         <WhyUsAI />
         <div className="h-[20vh]"></div>

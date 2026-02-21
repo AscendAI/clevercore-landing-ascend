@@ -29,13 +29,9 @@ export default function Navbar() {
     <nav className="bg-opacity/50 fixed top-0 z-50 w-full border-b pt-2 backdrop-blur-md md:border-0">
       <div className="mx-auto max-w-screen-xl px-4 md:flex md:items-center md:justify-between">
         <div className="flex items-center justify-between py-3 md:ml-5 md:block md:py-5">
-          <Link href="/">
-            <Image
-              src="/logo_letter.png"
-              alt="ascend ai"
-              height={18}
-              width={126}
-            />
+          <Link href="/" className="flex items-center gap-2">
+            <Image src="/cc_Logo.png" alt="Clevercore AI" height={24} width={24} />
+            <span className="text-lg font-bold text-white tracking-tight">Clevercore AI</span>
           </Link>
           <div className="md:hidden">
             <button
@@ -47,30 +43,26 @@ export default function Navbar() {
           </div>
         </div>
         <div
-          className={`mt-4 pb-3 md:mt-0 md:block md:pb-0 md:text-xl ${
-            state
-              ? "overflow absolute right-0 mr-[1rem] w-[14rem] flex-auto border-[1px] border-solid border-white bg-black text-center leading-6 md:border-none md:bg-transparent lg:border-none lg:bg-transparent"
-              : "hidden"
-          }`}
+          className={`mt-4 pb-3 md:mt-0 md:block md:pb-0 md:text-xl ${state
+            ? "overflow absolute right-0 mr-[1rem] w-[14rem] flex-auto border-[1px] border-solid border-white bg-black text-center leading-6 md:border-none md:bg-transparent lg:border-none lg:bg-transparent"
+            : "hidden"
+            }`}
         >
           <ul
-            className={`items-right justify-center space-y-8 px-[2rem] md:mr-0 md:flex md:space-x-6 md:space-y-0 lg:mr-[3rem] ${
-              state ? "p-[2rem] md:p-0 lg:p-0" : "hidden"
-            }`}
+            className={`items-right justify-center space-y-8 px-[2rem] md:mr-0 md:flex md:space-x-6 md:space-y-0 lg:mr-[3rem] ${state ? "p-[2rem] md:p-0 lg:p-0" : "hidden"
+              }`}
           >
             {menus.map((item, idx) => (
               <li
                 key={idx}
-                className={`flex justify-center duration-300 hover:scale-105 hover:text-white ${
-                  state
-                    ? "text-white md:text-[#8F9BB7] lg:text-[#8F9BB7]"
-                    : "text-[#8F9BB7]"
-                }`}
+                className={`flex justify-center duration-300 hover:scale-105 hover:text-white ${state
+                  ? "text-white md:text-[#8F9BB7] lg:text-[#8F9BB7]"
+                  : "text-[#8F9BB7]"
+                  }`}
               >
                 <div
-                  className={`${
-                    state ? "mr-[4px] mt-[4px] md:hidden lg:hidden" : "hidden"
-                  }`}
+                  className={`${state ? "mr-[4px] mt-[4px] md:hidden lg:hidden" : "hidden"
+                    }`}
                 >
                   {item.icon}
                 </div>

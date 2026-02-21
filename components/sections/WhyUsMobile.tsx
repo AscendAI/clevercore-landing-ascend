@@ -8,7 +8,7 @@ import { WhyUsSaasMobile } from "./whyUs/mobile/WhyUs_saas_m"
 const WhyUsMobile = () => {
   return (
     <div className="container">
-      <SectionTitle>Ascend with us</SectionTitle>
+      <SectionTitle>Why Choose Us</SectionTitle>
       <div>
         <SectionTitle className="py-10 text-lg">
           AI & AUTOMATION SOLUTIONS

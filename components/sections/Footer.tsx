@@ -7,11 +7,14 @@ const Footer = () => {
     <footer className="bg-secondary/50 text-white py-16 px-8">
       <div className="max-w-7xl mx-auto">
         <div className="mb-16">
-          <img
-            src="/logo_letter.png"
-            alt="Logo"
-            className="md:w-700 max-w-screen h-auto md:h-30"
-          />
+          <div className="flex items-center gap-3">
+            <img
+              src="/cc_Logo.png"
+              alt="Clevercore AI"
+              className="h-10 w-auto"
+            />
+            <span className="text-2xl font-bold text-white tracking-tight">Clevercore AI</span>
+          </div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           <div>
@@ -95,9 +98,9 @@ const Footer = () => {
 
         {/* Payment Banner */}
         <div className="mt-8 flex justify-center">
-          <img 
-            src="/Payment Banner 2 - Copy.png" 
-            alt="Payment Methods" 
+          <img
+            src="/Payment Banner 2 - Copy.png"
+            alt="Payment Methods"
             className="max-w-full h-auto"
           />
         </div>
@@ -105,7 +108,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="mt-8 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            © 2025 Ascend AI. All rights reserved.
+            © 2025 Clevercore AI. All rights reserved.
           </p>
           <Link
             href="#top"

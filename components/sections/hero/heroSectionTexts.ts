@@ -1,6 +1,6 @@
 export const heroTexts = {
   typewriterWords: [
-    "Ascend Beyond Boundaries with AI",
+    "Clevercore AI — Beyond Boundaries",
     "Bring Your SaaS Visions to Life!",
   ],
   descriptions: [

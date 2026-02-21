@@ -58,8 +58,8 @@ export const providedServices = [
 
 
 export const aboutListsDescription = [`The path to outstanding products is marked by a well-structured
-process. At Ascend AI we set our scope early, aligning the vision,
+process. At Clevercore AI we set our scope early, aligning the vision,
 ideas, and timeframes. For businesses we take a deep dive into your
 existing workflows, processes, tools, and goals to spot areas ready
 for improvement. Based on this research we propose customized
-solutions that address your precise needs and specifications.`,`You know where the magic really happens? Right here in our design stage! This is when we design your branding package and application wireframes, so we can cook up an experience and design your users will rave about.`,`Next up, we roll up our sleeves and get to work. Your awesome ideas mixed with our sleek designs, and like magic, we've got real, working products in no time! Forget about endless coding sessions and time consuming project management—our approach is all about speed and efficiency.`]
+solutions that address your precise needs and specifications.`, `You know where the magic really happens? Right here in our design stage! This is when we design your branding package and application wireframes, so we can cook up an experience and design your users will rave about.`, `Next up, we roll up our sleeves and get to work. Your awesome ideas mixed with our sleek designs, and like magic, we've got real, working products in no time! Forget about endless coding sessions and time consuming project management—our approach is all about speed and efficiency.`]

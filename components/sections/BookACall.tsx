@@ -31,7 +31,7 @@ const BookACall = () => {
       <Card className="z-10 flex h-[26.5rem] w-full flex-col items-center justify-center lg:w-full bg-none">
         <CardHeader className="">
           <CardTitle className="z-10 text-3xl font-extrabold md:text-4xl text-center">
-            Are you ready to Ascend? Let&apos; Talk!
+            Are you ready to level up? Let&apos; Talk!
           </CardTitle>
         </CardHeader>
         <CardContent>
@@ -40,7 +40,7 @@ const BookACall = () => {
             into your SaaS vision, we&apos;re ready to help you take the first
             step.{" "}
             <span className="font-bold">Book a free consultation call</span>{" "}
-            with <span className="font-bold">ASCEND AI</span> and let&apos;s
+            with <span className="font-bold">CLEVERCORE AI</span> and let&apos;s
             turn your goals into tangible success.
           </CardDescription>
         </CardContent>

@@ -3,8 +3,8 @@ import Link from "next/link"
 import { ArrowLeft } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Terms & Conditions - Ascend AI",
-  description: "Terms and conditions for using Ascend AI services and website.",
+  title: "Terms & Conditions - Clevercore AI",
+  description: "Terms and conditions for using Clevercore AI services and website.",
 }
 
 export default function TermsPage() {
@@ -26,14 +26,14 @@ export default function TermsPage() {
           <div>
             <h2 className="text-2xl font-bold text-white mb-4">1. Acceptance of Terms</h2>
             <p className="text-gray-300 leading-relaxed">
-              By accessing and using Ascend AI's services, you accept and agree to be bound by the terms and provision of this agreement.
+              By accessing and using Clevercore AI's services, you accept and agree to be bound by the terms and provision of this agreement.
             </p>
           </div>
 
           <div>
             <h2 className="text-2xl font-bold text-white mb-4">2. Service Description</h2>
             <p className="text-gray-300 leading-relaxed">
-              Ascend AI provides artificial intelligence solutions, SaaS platforms, and consulting services to businesses and organizations.
+              Clevercore AI provides artificial intelligence solutions, SaaS platforms, and consulting services to businesses and organizations.
             </p>
           </div>
 
@@ -47,7 +47,7 @@ export default function TermsPage() {
           <div>
             <h2 className="text-2xl font-bold text-white mb-4">4. Intellectual Property</h2>
             <p className="text-gray-300 leading-relaxed">
-              All content, features, and functionality of our services are owned by Ascend AI and are protected by international copyright, trademark, and other intellectual property laws.
+              All content, features, and functionality of our services are owned by Clevercore AI and are protected by international copyright, trademark, and other intellectual property laws.
             </p>
           </div>
 
@@ -68,7 +68,7 @@ export default function TermsPage() {
           <div>
             <h2 className="text-2xl font-bold text-white mb-4">7. Limitation of Liability</h2>
             <p className="text-gray-300 leading-relaxed">
-              Ascend AI shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of our services.
+              Clevercore AI shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of our services.
             </p>
           </div>
 
