@@ -45,7 +45,7 @@ const BookACall = () => {
           </CardDescription>
         </CardContent>
         <Link
-          href={`https://calendly.com/ascendai/meeting-with-ascend-ai`}
+          href={`https://cal.com/louis-taborn-yvsqiy/30min`}
           target="_blank"
         >
           <Button className="cursor-pointer text-xl bg-gradient-to-r from-primary to-blue-500 text-white hover:bg-gradient-to-r hover:from-primary hover:to-blue-600 rounded-xl">

@@ -74,7 +74,7 @@ export default function Navbar() {
           </ul>
         </div>
         <Link
-          href={`https://calendly.com/ascendai/meeting-with-ascend-ai`}
+          href={`https://cal.com/louis-taborn-yvsqiy/30min`}
           target="_blank"
         >
           <Button className="hidden md:block">Book A Free Call</Button>

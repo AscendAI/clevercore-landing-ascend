@@ -8,6 +8,6 @@ export const heroTexts = {
     "Turn your ideas into reality with our expert SaaS development services, tailored to deliver innovative, scalable software solutions for your business.",
   ],
   buttonText: "Book A Free Call",
-  calendlyLink: "https://calendly.com/ascendai/meeting-with-ascend-ai",
+  bookingLink: "https://cal.com/louis-taborn-yvsqiy/30min",
   descriptionDuration: 6969,
 }

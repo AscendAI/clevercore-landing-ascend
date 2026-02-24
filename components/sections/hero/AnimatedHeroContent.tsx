@@ -14,7 +14,7 @@ import { useHeroDescription } from "./useHeroDescription"
 
 const AnimatedHeroContent = () => {
   const { currentDescription, descriptions } = useHeroDescription()
-  const { typewriterWords, buttonText, calendlyLink } = heroTexts
+  const { typewriterWords, buttonText, bookingLink } = heroTexts
 
   const buttonVariantsWithFade = {
     hidden: { opacity: 0, y: 20 },
@@ -52,7 +52,7 @@ const AnimatedHeroContent = () => {
           animate="show"
           variants={buttonVariantsWithFade}
         >
-          <Link href={calendlyLink} target="_blank" rel="noreferrer">
+          <Link href={bookingLink} target="_blank" rel="noreferrer">
             <Button>{buttonText}</Button>
           </Link>
         </MotionDiv>

@@ -39,10 +39,10 @@ const CtaCard = () => {
             transition={{ duration: 0.5, delay: 0.4 }}
             className="mt-4 md:mt-0"
           >
-            <Link href='https://calendly.com/ascendai/meeting-with-ascend-ai' target="_blank">
-            <Button className="border-2 bg-gradient-to-r from-primary to-blue-500 text-white hover:bg-gradient-to-r hover:from-primary hover:to-blue-600 hover:border-white/50 rounded-xl">
-              Get In Touch
-            </Button>
+            <Link href='https://cal.com/louis-taborn-yvsqiy/30min' target="_blank">
+              <Button className="border-2 bg-gradient-to-r from-primary to-blue-500 text-white hover:bg-gradient-to-r hover:from-primary hover:to-blue-600 hover:border-white/50 rounded-xl">
+                Get In Touch
+              </Button>
             </Link>
           </motion.div>
         </motion.div>
