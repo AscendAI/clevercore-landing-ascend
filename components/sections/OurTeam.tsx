@@ -2,32 +2,27 @@ import React from "react"
 import Image from "next/image"
 import Link from "next/link"
 import LinkedIn from "public/linkedin_icon.png"
-import Rafid from "public/team/Rafid.png"
-import Refat from "public/team/Refat.png"
 import Yaseen from "public/team/Yaseen.png"
+import Louis from "public/louis_ceo.png"
 
 
 
 import { buttonVariants } from "../ui/button"
 import SectionTitle from "../SectionTitle"
 
-const TeamInfo =[
+const TeamInfo = [
   {
-    name: "Rafid Hamid",
-    img: "/team/Rafid.png",
-    role: "Tech lead"
+    name: "Louis Taborn",
+    img: "/louis_ceo.png",
+    role: "Founder & CEO"
   },
   {
-  name: "Yaseen Nur",
-  img: "/team/Yaseen.png",
-  role: "Founder & CEO"
-},    
-  {
-  name: "Refatul Islam",
-  img: "/team/Refat.png",
-  role: "Senior Software Engineer"
-},]
-const image = [ Rafid, Yaseen, Refat]
+    name: "Yaseen Nur",
+    img: "/team/Yaseen.png",
+    role: "CTO"
+  },
+]
+const image = [Louis, Yaseen]
 
 function OurTeam() {
   return (
@@ -37,25 +32,24 @@ function OurTeam() {
         {`Let's`} Meet Our Team
       </h1>
       <div className="flex flex-col items-center justify-center gap-20 md:flex-row">
-        {TeamInfo.slice(0, 3).map((member, i) => (
+        {TeamInfo.map((member, i) => (
           <div key={i} className="flex flex-col items-center">
-            <div  className="relative ">
+            <div className="relative h-64 w-64">
               <Image
                 src={image[i]}
-                height={300}
-                width={300}
+                fill
                 alt={`${member.name}`}
-                className="rounded-full hover:scale-105 hover:duration-300"
+                className="rounded-full object-cover hover:scale-105 hover:duration-300"
               />
               <Image
                 src={LinkedIn}
-                width={100}
+                width={80}
                 alt="LinkedIn"
                 className="absolute bottom-0 right-0"
               />
             </div>
-            <h1 className="mb-5 mt-20 text-3xl font-bold">{member.name}</h1>
-            <h1 className="text-lg">{member.role}</h1>
+            <h1 className="mb-2 mt-8 text-2xl font-bold">{member.name}</h1>
+            <h1 className="text-lg text-muted-foreground">{member.role}</h1>
           </div>
         ))}
       </div>

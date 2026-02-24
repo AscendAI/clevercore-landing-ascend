@@ -1,16 +1,8 @@
 import React, { useState } from "react"
 import Image from "next/image"
 import { motion } from "framer-motion"
-import Abrar from "public/team/abrar.jpg"
-import Ahsan from "public/team/Ahsan.png"
-import Anupam from "public/team/Anupam.png"
-import Asif from "public/team/Asif.png"
-import Rafid from "public/team/Rafid.png"
-import Rahin from "public/team/Rahin.png"
-import Tanvir from "public/team/tanvir.jpg"
-import Refat from "public/team/Refat.png"
-import Sabbir from "public/team/Sabbir.png"
 import Yaseen from "public/team/Yaseen.png"
+import Louis from "public/louis_ceo.png"
 
 import { Card } from "@/components/ui/card"
 
@@ -19,16 +11,8 @@ import { TeamInfo } from "./teamInfo"
 const Members = () => {
   const [HoverIndex, setHoverIndex] = useState<number>()
   const image = [
+    Louis,
     Yaseen,
-    Rafid,
-    Refat,
-    Sabbir,
-    Abrar,
-    Ahsan,
-    Asif,
-    Rahin,
-    Tanvir,
-    Anupam,
   ]
   return (
     <motion.ul
@@ -62,20 +46,20 @@ const Members = () => {
           >
             {info.name !== "" ? (
               <Card
-                className={`m-5 flex h-[25rem] w-[18rem] flex-col items-center text-center transition-all duration-500 hover:scale-[105%] hover:duration-300 ${
-                  HoverIndex !== index && HoverIndex !== undefined ? `blur-sm` : ``
-                }`}
+                className={`m-5 flex h-[25rem] w-[18rem] flex-col items-center text-center transition-all duration-500 hover:scale-[105%] hover:duration-300 ${HoverIndex !== index && HoverIndex !== undefined ? `blur-sm` : ``
+                  }`}
                 onMouseLeave={() => setHoverIndex(undefined)}
                 onMouseEnter={() => setHoverIndex(index)}
               >
-                <Image
-                  src={image[index]!}
-                  alt={info.name}
-                  width={300}
-                  height={300}
-                  placeholder="blur"
-                  className="rounded-xl"
-                />
+                <div className="relative h-[18rem] w-full overflow-hidden rounded-t-xl">
+                  <Image
+                    src={image[index]!}
+                    alt={info.name}
+                    fill
+                    placeholder="blur"
+                    className="object-cover"
+                  />
+                </div>
 
                 <h1 className="pt-5 text-xl font-semibold">{info.name}</h1>
                 <h1 className="pt-2 text-lg font-semibold text-muted-foreground">
